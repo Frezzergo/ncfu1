@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>СКФУ — Северо-Кавказский федеральный университет</title>
+  <meta name="description" content="Лендинг о Северо-Кавказском федеральном университете: факты, направления, кампус, контакты." />
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <!-- Top bar -->
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <a class="brand" href="#top">
+        <span class="brand__mark">
+    <img class="brand__logo" src="img/72e73c3c-da8a-40ff-8ff4-7ac7f4038307_removalai_preview.png" alt="Логотип СКФУ">
+        </span>
+        <span class="brand__text">Северо-Кавказский федеральный университет</span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#about">О вузе</a>
+        <a href="#facts">Факты</a>
+        <a href="#programs">Направления</a>
+        <a href="#campus">Кампус</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+
+      <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main id="top">
+    <section class="hero">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <h1>СКФУ — образование, наука и возможности</h1>
+          <p>
+            Современный федеральный университет, объединяющий обучение,
+            исследования и проекты для развития региона и страны.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#slider">Коротко о вузе</a>
+            <a class="btn btn--ghost" href="#contacts">Связаться</a>
+          </div>
+
+          <div class="hero__badges">
+            <div class="badge">
+              <div class="badge__title">Проект</div>
+              <div class="badge__text">Лендинг на HTML/CSS/JS</div>
+            </div>
+            <div class="badge">
+              <div class="badge__title">Без VPN</div>
+              <div class="badge__text">картинки из папки img/</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__card">
+          <div class="hero__cardTitle">Быстрые ссылки</div>
+          <a class="quick" href="#programs">
+            <span class="quick__label">Направления</span>
+            <span class="quick__hint">что изучают</span>
+          </a>
+          <a class="quick" href="#campus">
+            <span class="quick__label">Кампус</span>
+            <span class="quick__hint">инфраструктура</span>
+          </a>
+          <a class="quick" href="#facts">
+            <span class="quick__label">Факты</span>
+            <span class="quick__hint">цифры и достижения</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slider -->
+    <section class="section" id="slider">
+      <div class="container">
+        <div class="section__head">
+          <h2>СКФУ в нескольких слайдах</h2>
+          <p>Листай - кратко и по делу: кто мы, что делаем, чем гордимся.</p>
+        </div>
+
+        <div class="slider" aria-roledescription="carousel">
+          <div class="slider__viewport" id="sliderViewport">
+            <!-- Slide 1 -->
+            <article class="slide is-active">
+              <img class="slide__img" src="img/Кампус СКФУ.jpg" alt="Кампус СКФУ" />
+              <div class="slide__content">
+                <h3>Федеральный университет региона</h3>
+                <p>
+                  СКФУ — крупный образовательный и научный центр, который
+                  объединяет обучение, исследования и практику.
+                </p>
+                <ul class="list">
+                  <li>Современные образовательные программы</li>
+                  <li>Проектная работа и практика</li>
+                  <li>Университетская среда и сообщество</li>
+                </ul>
+              </div>
+            </article>
+
+            <!-- Slide 2 -->
+            <article class="slide">
+              <img class="slide__img" src="img/Студенты СКФУ.jpg" alt="Студенты СКФУ" />
+              <div class="slide__content">
+                <h3>Студенческая жизнь и развитие</h3>
+                <p>
+                  Обучение — это не только пары: мероприятия, клубы, спорт,
+                  волонтёрство, стажировки и карьера.
+                </p>
+                <div class="pillRow">
+                  <span class="pill">Клубы</span>
+                  <span class="pill">Спорт</span>
+                  <span class="pill">Волонтёрство</span>
+                  <span class="pill">Стажировки</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Slide 3 -->
+            <article class="slide">
+              <img class="slide__img" src="img/Наука и Лаборатории.jpg" alt="Наука и лаборатории" />
+              <div class="slide__content">
+                <h3>Наука, лаборатории, инновации</h3>
+                <p>
+                  Исследования и прикладные проекты: от IT и инженерии до
+                  гуманитарных и социальных направлений.
+                </p>
+                <div class="statsMini">
+                  <div class="statsMini__item">
+                    <div class="statsMini__num">R&amp;D</div>
+                    <div class="statsMini__text">проекты и исследования</div>
+                  </div>
+                  <div class="statsMini__item">
+                    <div class="statsMini__num">IT</div>
+                    <div class="statsMini__text">цифровые компетенции</div>
+                  </div>
+                  <div class="statsMini__item">
+                    <div class="statsMini__num">ENG</div>
+                    <div class="statsMini__text">инженерные треки</div>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- Slide 4 -->
+            <article class="slide">
+              <img class="slide__img" src="img/priemnaya_kampaniya_skfu_2025_novye_specialnosti_sroki_i_vozmozhnosti_dlya_abiturientov_ncfu_ru_01-_2_.jpg" alt="СКФУ — обучение и возможности" />
+              <div class="slide__content">
+                <h3>Поступление и траектории</h3>
+                <p>
+                  Выбирай направление и собирай свою траекторию: дисциплины,
+                  практики, проекты, конкурсы и карьерные возможности.
+                </p>
+                <div class="ctaRow">
+                  <a class="btn btn--primary" href="#programs">Смотреть направления</a>
+                  <a class="btn btn--ghost" href="#contacts">Задать вопрос</a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <button class="slider__btn slider__btn--prev" id="prevBtn" aria-label="Предыдущий слайд">‹</button>
+          <button class="slider__btn slider__btn--next" id="nextBtn" aria-label="Следующий слайд">›</button>
+
+          <!-- <div class="slider__footer">
+            <div class="dots" id="dots" aria-label="Навигация по слайдам"></div>
+            <label class="autoplay">
+              <input type="checkbox" id="autoplayToggle" checked />
+              Автопрокрутка
+            </label>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container grid2">
+        <div>
+          <h2>О вузе</h2>
+          <p>
+            Северо-Кавказский федеральный университет (СКФУ) был создан в 2012 году на базе трёх ведущих вузов Ставропольского края. Университет является крупнейшим научно-образовательным центром на Северном Кавказе, который готовит высококвалифицированных специалистов для различных отраслей экономики России.
+          </p>
+          <p>
+            Основными направлениями подготовки являются: информационные технологии, инженерные науки, биотехнологии, нефтегазовое дело, экономика, юриспруденция, педагогика и медицина.
+          </p>
+
+          <div class="cards">
+            <div class="card">
+              <div class="card__title">Год создания</div>
+              <div class="card__text">СКФУ был создан 2 июля 2012 года специальным указом президента России. Это делает его относительно молодым федеральным университетом.</div>
+            </div>
+            <div class="card">
+              <div class="card__title">Сотрудничество</div>
+              <div class="card__text">СКФУ активно сотрудничает с вузами стран Кавказа, Центральной Азии и Ближнего Востока. Здесь обучается много иностранных студентов.</div>
+            </div>
+            <div class="card">
+              <div class="card__title">Исторический контекст</div>
+              <div class="card__text">В числе выпускников вузов-предшественников СКФУ — Михаил Горбачев, первый и единственный президент СССР.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="photoCard">
+          <img src="img/IMG_3897.gif" alt="Фото кампуса" />
+          <div class="photoCard__cap">
+            <div class="photoCard__title">Кампус и инфраструктура</div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- Facts -->
+    <section class="section section--alt" id="facts">
+      <div class="container">
+        <div class="section__head">
+          <h2>Факты и цифры</h2>
+          <p>Здесь кратко описаны преимущества нашего ВУЗа</p>
+        </div>
+
+        <div class="facts">
+          <div class="fact">
+            <div class="fact__num">200+</div>
+            <div class="fact__label">направлений подготовки</div>
+          </div>
+          <div class="fact">
+            <div class="fact__num">20k+</div>
+            <div class="fact__label">студентов</div>
+          </div>
+          <div class="fact">
+            <div class="fact__num">∞</div>
+            <div class="fact__label">возможностей для роста</div>
+          </div>
+          <div class="fact">
+            <div class="fact__num">24/7</div>
+            <div class="fact__label">доступ к материалам проекта</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Programs -->
+    <section class="section" id="programs">
+      <div class="container">
+        <div class="section__head">
+          <h2>Популярные направления</h2>
+        </div>
+
+        <div class="programs">
+          <article class="program">
+            <h3>ИТ и цифровые технологии</h3>
+            <p>Разработка, аналитика данных, кибербезопасность, ИИ.</p>
+            <ul class="list">
+              <li>Проекты и портфолио</li>
+              <li>Стажировки</li>
+              <li>Практические кейсы</li>
+            </ul>
+          </article>
+
+          <article class="program">
+            <h3>Инженерия и техносфера</h3>
+            <p>Технические направления, производство, инфраструктура.</p>
+            <ul class="list">
+              <li>Лабораторные работы</li>
+              <li>Инженерные треки</li>
+              <li>Командные проекты</li>
+            </ul>
+          </article>
+
+          <article class="program">
+            <h3>Экономика и управление</h3>
+            <p>Менеджмент, финансы, предпринимательство, аналитика.</p>
+            <ul class="list">
+              <li>Бизнес-кейсы</li>
+              <li>Коммуникации</li>
+              <li>Практика в компаниях</li>
+            </ul>
+          </article>
+
+          <article class="program">
+            <h3>Гуманитарные и социальные науки</h3>
+            <p>Язык, культура, общество, медиа, образование.</p>
+            <ul class="list">
+              <li>Исследования</li>
+              <li>Публичные проекты</li>
+              <li>События и сообщества</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Campus -->
+    <section class="section section--alt" id="campus">
+      <div class="container grid2">
+        <div>
+          <h2>Кампус</h2>
+          <p>
+            Тут обычно показывают: аудитории, лаборатории, пространства для командной
+            работы, спорт, общежития, библиотеки.
+          </p>
+          <div class="gallery">
+            <img src="img/photo_2026-01-12 13.35.26.jpeg" alt="Кампус" />
+            <img src="img/photo_2026-01-12 13.35.29.jpeg" alt="Студенты" />
+            <img src="img/photo_2026-01-12 13.35.27.jpeg" alt="Лаборатории" />
+          </div>
+        </div>
+
+        <div class="callout">
+          <h3>СКФУ - это не просто ВУЗ, он...</h3>
+          <ul class="list">
+            <li>престижный</li>
+            <li>прогрессивный</li>
+            <li>многопрофильный</li>
+            <li>современный</li>
+          </ul>
+          <a class="btn btn--primary" href="#slider">Вернуться к слайдам</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacts -->
+    <section class="section" id="contacts">
+      <div class="container grid2">
+        <div>
+          <h2>Контакты</h2>
+          <p>
+            @soxxxu
+          </p>
+
+          <div class="contactCards">
+            <div class="contactCard">
+              <div class="contactCard__title">Email</div>
+              <a href="mailto:info@example.com">oiss@ncfu.ru</a>
+            </div>
+            <div class="contactCard">
+              <div class="contactCard__title">Телефон</div>
+              <a href="tel:+70000000000">+7 (909) 774-99-89</a>
+            </div>
+            <div class="contactCard">
+              <div class="contactCard__title">Город</div>
+              <div>Ставрополь</div>
+            </div>
+          </div>
+        </div>
+
+        <form class="form" onsubmit="return false;">
+          <h3>Форма обратной связи</h3>
+          <label>
+            Имя
+            <input type="text" placeholder="Как к тебе обращаться" />
+          </label>
+          <label>
+            Сообщение
+            <textarea rows="5" placeholder="Кратко: что нужно сделать/уточнить"></textarea>
+          </label>
+          <button class="btn btn--primary" type="button" id="fakeSend">Отправить</button>
+          <p class="form__hint" id="formHint"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>© <span id="year"></span> Проектный сайт СКФУ</div>
+      <div class="footer__links">
+        <a href="#top">Наверх</a>
+        <a href="#slider">Слайды</a>
+        <a href="#contacts">Контакты</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
